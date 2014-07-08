@@ -100,6 +100,7 @@ namespace pw
         /// <param name="_iID">The identifier of the string to be loaded.</param>
         /// <param name="_iMaxStringLength">The maximum string length. The string is truncated and null-terminated if it is longer than the number of characters specified.</param>
         /// <returns>If the function succeeds, it returns the read string. It returns an empty string otherwise.</returns>
+        /// <exception cref="System.InvalidOperationException">Thrown if the module hasn't been loaded.</exception>
         public string GetString(uint _iID, int _iMaxStringLength = 256)
         {
             if (m_ptrModule != null)
