@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{5049d1a6-446b-49ff-811b-43592e60e1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{34de05ed-cb7b-4897-8933-2de2f3728dde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="source\jumplist.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\application.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dynamiclibrary.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jumptask.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\environment.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shutdownsystem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\comobject.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\exception.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\path.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program.hpp" />
+    <ClInclude Include="source\jumplist.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\application.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dynamiclibrary.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jumptask.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\actionmap.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\environment.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shutdownsystem.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\comobject.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\exception.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\actionmap.tlh">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\path.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\csharp\Shared\Resources.res">
+      <Filter>shared</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>
