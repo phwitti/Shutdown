@@ -6,9 +6,9 @@ This small taskbar application enables *fast* access to windows shutdown options
 
 ---
 
-Now there's a port to c++ to get around the .net sturtup delay and extremly speedup the applications start
+Now there's a port to c++ to get around the .NET sturtup delay and extremly speedup the applications start.
 
 ---
 
-Special thanks to dAKirby309@deviantart for wonderful icons on which the applications' icons are based on
+Special thanks to dAKirby309@deviantart for wonderful icons on which the applications' icons are based on:
 http://dakirby309.deviantart.com/art/Metro-UI-Icon-Set-725-Icons-280724102
