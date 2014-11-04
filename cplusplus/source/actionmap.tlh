@@ -1,0 +1,52 @@
+
+namespace pw
+{
+    template<typename T>
+    bool ActionMap<T>::execute(const T &_key) const
+    {
+        try
+        {
+            this->at(_key)();
+            return true;
+        }
+        catch (...)
+        {
+            return false;
+        }
+    }
+
+    template<typename T>
+    bool ActionMap<T>::executeFirst(const std::vector<T> &_keys) const
+    {
+        for(const T &key : _keys)
+        {
+            try
+            {
+                this->at(key)();
+                return true;
+            }
+            catch (...)
+            {
+            }
+        }
+        return false;
+    }
+
+    template<typename T>
+    bool ActionMap<T>::executeAll(const std::vector<T> &_keys) const
+    {
+        bool bKeyFound = false;
+        for(const T &key : _keys)
+        {
+            try
+            {
+                this->at(key)();
+                bKeyFound = true;
+            }
+            catch (...)
+            {
+            }
+        }
+        return bKeyFound;
+    }
+}

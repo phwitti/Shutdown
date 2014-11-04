@@ -67,7 +67,7 @@ build/
 *.sbr
 *.tlb
 *.tli
-*.tlh
+#*.tlh
 *.tmp
 *.tmp_proj
 *.log
