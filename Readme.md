@@ -1,4 +1,4 @@
-# pwShutdown
+# pw-shutdown
 
 This small taskbar application enables *fast* access to windows shutdown options. It creates jump-list items for shutdown, restart, sleep and logoff and opens up the shutdown dialog window on default start. 
 
